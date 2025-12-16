@@ -1,0 +1,13 @@
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = gpg
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	email = fahmi122004@gmail.com
+	name = fahmi-ramadhan
+[pull]
+	rebase = false
+[credential "https://git.bodha.co.id"]
+	provider = generic
